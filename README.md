@@ -7,8 +7,14 @@ Layout: `n5/<vocab-id>.mp3` … `n1/<vocab-id>.mp3`. The `audio` field in the ap
 
 Raw base URL: `https://raw.githubusercontent.com/cuongdq88/nekogo/main/`
 
-## Mock-exam listening (`exam/n5/listening/`)
+## Generated audio (VOICEVOX)
 
-50 N5 listening items, each `<id>.mp3` plus a slower `<id>.slow.mp3`, from
-[JLPTSuccess](https://github.com/gauravhq/JLPTSuccess) (MIT). Voices: VOICEVOX:春日部つむぎ, VOICEVOX:四国めたん,
-VOICEVOX:玄野武宏, VOICEVOX:雨晴はう, VOICEVOX:ずんだもん, VOICEVOX:青山龍星 (credit required by each voice's terms).
+Made with VOICEVOX CORE by `tools/tts_voicevox.py` in the main NekoGo repo.
+
+- `examples/n<L>/<vocab-id>.mp3`: vocabulary example sentences
+- `grammar/<grammar-id>/<idx>.mp3`: grammar example sentences
+- `exam/n<L>/listening/<id>.mp3` and `<id>.slow.mp3`: mock-exam listening (N5 scripts from
+  [JLPTSuccess](https://github.com/gauravhq/JLPTSuccess), MIT; N4–N1 scripts written by NekoGo)
+
+Voices (credit required): VOICEVOX:雨晴はう, VOICEVOX:四国めたん, VOICEVOX:東北ずん子,
+VOICEVOX:玄野武宏(CV:ガロ), VOICEVOX:白上虎太郎.
